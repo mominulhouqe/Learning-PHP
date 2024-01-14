@@ -37,13 +37,32 @@ var_dump($car);
 
 // 
 
+$x=2334.6;
+$int_cast=(int)$x;
+echo $int_cast;
+
+
+$a="kilomiters 34";
+$a=(float)$a;
+echo $a;
+
+const myCar="BMW";
+echo "</br> This my car Name = ". myCar;
+
+// define("Cars",[
+//     "Alfa Remo",
+//     "Toyota"
+// ]);
+// echo "</br> Car List  = ".Cars[0]
 
 
 
+define("name","</br> My Name is Mominul Houqe");
 
-
-
-
+function myName(){
+    echo name;
+}
+myName();
 
 
 ?>
